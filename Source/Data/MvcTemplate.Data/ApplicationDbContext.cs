@@ -17,9 +17,7 @@
         {
         }
 
-        public IDbSet<Joke> Jokes { get; set; }
-
-        public IDbSet<JokeCategory> JokesCategories { get; set; }
+        //// Add DbSets here
 
         public static ApplicationDbContext Create()
         {
